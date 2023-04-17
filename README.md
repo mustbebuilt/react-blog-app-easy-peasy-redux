@@ -12,6 +12,7 @@ To more efficiently work with fetch() install axios.
 
 ```
 npm install axios
+npm install easy-peasy
 ```
 
 Set up the json-server by creating a data/db.json file with sample data.
