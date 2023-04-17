@@ -1,7 +1,10 @@
+import { useStoreState } from 'easy-peasy';
+
 const Footer = () => {
+    const postCount = useStoreState((state) => state.postCount);
     return (
-        <footer>
-            <p>&copy 2023</p>
+        <footer className='Footer'>
+            <p>{postCount} Blog Posts</p>
         </footer>
     )
 }
