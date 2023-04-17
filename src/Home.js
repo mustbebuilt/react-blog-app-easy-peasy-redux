@@ -3,11 +3,11 @@ import DataContext from "./context/DataContext";
 import { useContext } from 'react';
 
 const Home = () => {
-    const {posts} = useContext(DataContext);
+    const {searchResults} = useContext(DataContext);
     return (
         <main className="Home">
-            {posts.length ? (
-                <Feed posts={posts} />
+            {searchResults.length ? (
+                <Feed posts={searchResults} />
             ) : (
                 <p style={{ marginTop: "2rem" }}>
                     No posts to display.
