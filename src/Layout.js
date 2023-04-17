@@ -2,17 +2,15 @@ import Header from "./Header";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import { Outlet } from "react-router-dom";
-import DataContext from "./context/DataContext";
-import { useContext } from 'react';
 
 const Layout = () => {
-  const {search, setSearch} = useContext(DataContext);
+
   return (
     <div>
       {/* A "layout route" is a good place to put markup you want to
           share across all the pages on your site, like navigation. */}
       <Header />
-      <Nav search={search} setSearch={setSearch} />
+      <Nav  />
 
       <hr />
 

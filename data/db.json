@@ -17,18 +17,6 @@
       "title": "My 3rd Post",
       "datetime": "July 01, 2021 11:17:36 AM",
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur expedita, assumenda similique non optio! Modi nesciunt excepturi corrupti atque blanditiis quo nobis, non optio quae possimus illum exercitationem ipsa!"
-    },
-    {
-      "id": 5,
-      "title": "context",
-      "datetime": "April 17, 2023 10:19:42 AM",
-      "body": "is not my king"
-    },
-    {
-      "id": 6,
-      "title": "asdf",
-      "datetime": "April 17, 2023 10:23:03 AM",
-      "body": "asdf"
     }
   ]
 }

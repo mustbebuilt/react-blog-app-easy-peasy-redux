@@ -33,3 +33,9 @@ npm start
 Snippets
 Ctrl>ALT>r
 rafce
+
+Upgrade node with
+
+```
+npm update npm -g
+```
